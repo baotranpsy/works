@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bao-Tran Nguyen-Duong | Academic Profile</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.88em' font-size='88'%3E%CE%A8%3C/text%3E%3C/svg%3E">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="#about" data-page="about">Bao-Tran Nguyen-Duong</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a class="active" href="#about" data-page="about">about</a>
+          <a href="#publications" data-page="publications">publications</a>
+          <a href="#metrics" data-page="metrics">metrics</a>
+          <a href="#cv" data-page="cv">CV</a>
+          <label class="site-search" aria-label="Search website">
+            <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="11" cy="11" r="7"></circle>
+              <path d="m16.5 16.5 4 4"></path>
+            </svg>
+            <input type="search" id="site-search" placeholder="search">
+          </label>
+          <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
+            <svg class="icon icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M21 14.5A8.5 8.5 0 0 1 9.5 3 7 7 0 1 0 21 14.5z"></path>
+            </svg>
+            <svg class="icon icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"></path>
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page">
+      <section class="section profile-section active-section" id="about" data-section="about">
+        <div class="profile-copy">
+          <h1><strong>Bao-Tran</strong> Nguyen-Duong</h1>
+          <p>
+            I received my Bachelor's degree in Psychology from
+            <a class="academic-link" href="https://en.hcmue.edu.vn/">Ho Chi Minh City University of Education</a>,
+            Vietnam. I am currently pursuing a Master's degree at the
+            <a class="academic-link" href="https://gimbc.tmu.edu.tw/">Graduate Institute of Mind, Brain and Consciousness (GIMBC), Taipei Medical University</a>,
+            Taiwan, where I was awarded a scholarship covering full tuition. I am affiliated with
+            <span class="org-name">The Brain State Lab</span> under the supervision of
+            <span class="org-name">Associate Professor Niall Duncan</span>, and I am involved
+            in ongoing research projects. My research
+            interests lie in neuroscience, with a particular focus on brain states and
+            their underlying neural mechanisms. Prior to this, my academic work primarily
+            centered on mental health.
+          </p>
+
+          <div class="news-block">
+            <div class="section-heading">
+              <h2>News</h2>
+            </div>
+            <ul class="news-list">
+              <li>
+                <time datetime="2026-07-01">Jul 1-21, 2026</time>
+                <span>Participated in the <span class="academic-link">International Summer School 2026</span> at <span class="academic-link">Taipei Medical University</span>, entitled "Scientific approach toward nonstationary time series analysis for biomedical artificial intelligence."</span>
+              </li>
+              <li>
+                <time datetime="2026-02">Feb 2026</time>
+                <span>Began a master's program at the <a class="academic-link" href="https://hub.tmu.edu.tw/en/organisations/graduate-institute-of-mind-brain-and-consciousness">Graduate Institute of Mind, Brain and Consciousness (GIMBC), Taipei Medical University</a>, Taipei, Taiwan, with a scholarship covering full tuition.</span>
+              </li>
+              <li>
+                <time datetime="2023-07">Jul 2023</time>
+                <span>Accepted to <a class="academic-link" href="https://www.icisequynhon.com/conferences/2023/VSSS10/10years/index.htm">Vietnam Summer School of Science 2023</a>, entitled "Embracing the Past, Shaping the Future", at the International Centre for Interdisciplinary Science and Education (ICISE), Binh Dinh Province, Vietnam.</span>
+              </li>
+              <li>
+                <time datetime="2023-04">Apr 2023 - Sep 2023</time>
+                <span>Accepted as a Neurosciences intern through the <a class="academic-link" href="https://teep.studyintaiwan.org/program/980">Taiwan Experience Education Program (TEEP)</a>, Graduate Institute of Mind, Brain and Consciousness (GIMBC), Taipei Medical University, Taipei, Taiwan.</span>
+              </li>
+              <li>
+                <time datetime="2023-01">Jan 2023 - Mar 2023</time>
+                <span>Accepted as an intern at Southern Vietnam HIV and Addiction Treatment Technology Transfer Center (SVHATTC), Ho Chi Minh City University of Medicine and Pharmacy, Ho Chi Minh City, Vietnam.</span>
+              </li>
+              <li>
+                <time datetime="2022-08">Aug 2022</time>
+                <span>Accepted to Vietnam Summer School of Science cohort 2022, entitled "Stories of Life", at ICISE, Binh Dinh Province, Vietnam.</span>
+              </li>
+              <li>
+                <time datetime="2022-02">Feb 2022 - May 2022</time>
+                <span>Accepted as a Clinical Psychology intern at the Department of Psychosomatic Medicine, Thu Duc City Hospital, Ho Chi Minh City, Vietnam.</span>
+              </li>
+              <li>
+                <time datetime="2019-10">Oct 2019</time>
+                <span>Admitted to the Psychology program at Ho Chi Minh City University of Education.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="social-links" aria-label="Academic accounts">
+            <a href="mailto:baotranpsy@gmail.com" aria-label="Email" title="Email">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@13/icons/gmail.svg" alt="">
+            </a>
+            <a href="https://scholar.google.com/citations?user=fn3BgTkAAAAJ" aria-label="Google Scholar" title="Google Scholar">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@13/icons/googlescholar.svg" alt="">
+            </a>
+            <a href="https://www.researchgate.net/profile/Bao-Tran-Nguyen-Duong-2/" aria-label="ResearchGate" title="ResearchGate">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@13/icons/researchgate.svg" alt="">
+            </a>
+            <a href="https://orcid.org/0000-0003-4773-8056" aria-label="ORCID" title="ORCID">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@13/icons/orcid.svg" alt="">
+            </a>
+            <a href="https://www.scopus.com/authid/detail.uri?authorId=57346884300" aria-label="Scopus" title="Scopus">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@13/icons/scopus.svg" alt="">
+            </a>
+            <a href="https://www.linkedin.com/in/bao-tran-nguyen-duong-b13277279" aria-label="LinkedIn" title="LinkedIn">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@13/icons/linkedin.svg" alt="">
+            </a>
+          </div>
+        </div>
+
+        <aside class="profile-card" aria-label="Profile details">
+          <div class="avatar" role="img" aria-label="Profile avatar placeholder">
+            <img src="picture/nguyenduongbaotran.jpg" alt="Portrait of Bao-Tran Nguyen-Duong">
+          </div>
+          <div class="profile-meta">
+            <p class="profile-location">Taipei, Taiwan</p>
+            <p>baotranpsy@gmail.com</p>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section" id="publications" data-section="publications">
+        <div class="section-heading">
+          <div>
+            <h2>Publications</h2>
+            <p class="section-kicker">Published papers and selected manuscripts under review.</p>
+          </div>
+          <a href="https://baotranpsy.github.io/academic/publications/">source page</a>
+        </div>
+        <div class="publication-filter-panel" aria-label="Publication filters">
+          <div class="publication-filter-group">
+            <span>Type</span>
+            <button class="filter-button active" type="button" data-filter-group="type" data-filter="all">all</button>
+            <button class="filter-button" type="button" data-filter-group="type" data-filter="journal">journal</button>
+            <button class="filter-button" type="button" data-filter-group="type" data-filter="conference">conference</button>
+            <button class="filter-button" type="button" data-filter-group="type" data-filter="manuscript">manuscript</button>
+          </div>
+          <div class="publication-filter-group">
+            <span>Year</span>
+            <button class="filter-button active" type="button" data-filter-group="year" data-filter="all">all</button>
+            <button class="filter-button" type="button" data-filter-group="year" data-filter="2025">2025</button>
+            <button class="filter-button" type="button" data-filter-group="year" data-filter="2024">2024</button>
+            <button class="filter-button" type="button" data-filter-group="year" data-filter="2023">2023</button>
+            <button class="filter-button" type="button" data-filter-group="year" data-filter="2022">2022</button>
+            <button class="filter-button" type="button" data-filter-group="year" data-filter="2021">2021</button>
+          </div>
+          <div class="publication-filter-group">
+            <span>Role</span>
+            <button class="filter-button active" type="button" data-filter-group="role" data-filter="all">all</button>
+            <button class="filter-button" type="button" data-filter-group="role" data-filter="corresponding">corresponding author</button>
+          </div>
+        </div>
+        <p class="publication-note">* Corresponding author.</p>
+        <div class="publication-years">
+          <section class="publication-year" data-year-group>
+            <h3 class="year-heading">2025</h3>
+            <ol class="publication-list">
+              <li class="publication-item" data-type="journal" data-year="2025" data-role="corresponding"><article><div class="pub-badge">Journal *</div><h3>Asian cultural values and help-seeking: a cross-sectional study on compulsive sexual behavior</h3><p class="authors">Hoang-Long Pham, Vu Hoang Anh Nguyen, Cong Minh Le, Thanh-Ha Truong-Thai, Quynh-Anh Vu-Thi, Xuan-Phat Phan, Hoa-Nhu Nguyen-Vo, Thuy Doan Hua, <strong>Bao-Tran Nguyen-Duong</strong>, Cyrus Su Hui Ho, & Vinh-Long Tran-Chi.</p><p class="venue">Frontiers in Psychiatry, 2025.</p><p class="keywords"><strong>Keywords:</strong> Asian cultural values; help-seeking; compulsive sexual behavior.</p><div class="pub-links"><a href="https://doi.org/10.3389/fpsyt.2025.1633160">doi</a></div></article></li>
+              <li class="publication-item" data-type="journal" data-year="2025" data-role="corresponding"><article><div class="pub-badge">Journal *</div><h3>The mediating role of psychological flexibility in the relationship between adverse childhood experiences and symptoms of depression, anxiety, and stress among Vietnamese college students</h3><p class="authors">Truong Vuong Vu, <strong>Bao-Tran Nguyen-Duong</strong>, Ha Thi Thu Le, Tuan Van Nguyen, & Vy Truc Le.</p><p class="venue">Discover Mental Health, 2025.</p><p class="keywords"><strong>Keywords:</strong> psychological flexibility; adverse childhood experiences; depression anxiety stress.</p><div class="pub-links"><a href="https://doi.org/10.1007/s44192-025-00293-4">doi</a></div></article></li>
+            </ol>
+          </section>
+          <section class="publication-year" data-year-group>
+            <h3 class="year-heading">2024</h3>
+            <ol class="publication-list">
+              <li class="publication-item" data-type="journal" data-year="2024" data-role="corresponding"><article><div class="pub-badge">Journal *</div><h3>The Relationship Between Emotional Intelligence and Career Decision-Making Difficulties: Mediation Role of Career Adaptability of University Students</h3><p class="authors">Ngoc-Khanh Nguyen, Hai-Yen Pham Le, Vu Hoang Anh Nguyen, <strong>Bao-Tran Nguyen-Duong</strong>, & Dieu Thi Thanh.</p><p class="venue">Journal of Curriculum and Teaching, 2024.</p><p class="keywords"><strong>Keywords:</strong> emotional intelligence; career decision-making; career adaptability.</p><div class="pub-links"><a href="https://doi.org/10.5430/jct.v13n2p67">doi</a></div></article></li>
+              <li class="publication-item" data-type="journal" data-year="2024" data-role="corresponding"><article><div class="pub-badge">Journal *</div><h3>The relationship between body image, eating disorders risk, and the professional help-seeking attitudes of college students in Vietnam</h3><p class="authors">Huan Thanh Nguyen, Nhi Ngoc Yen Nguyen, Tran Bao Le, Pha Cam Le, & <strong>Bao-Tran Nguyen-Duong</strong>.</p><p class="venue">Journal of Asian Scientific Research, 2024.</p><p class="keywords"><strong>Keywords:</strong> body image; eating disorder risk; help-seeking attitudes.</p><div class="pub-links"><a href="https://doi.org/10.55493/5003.v14i3.5135">doi</a></div></article></li>
+              <li class="publication-item" data-type="journal" data-year="2024" data-role="corresponding"><article><div class="pub-badge">Journal *</div><h3>Influence of global university rankings on strategic decisions at Ho Chi Minh City University of Education in balancing global competitiveness and local educational goals</h3><p class="authors">Khuong Vinh Nguyen, Tuan Anh Cao, <strong>Bao-Tran Nguyen-Duong</strong>, & Son Van Huynh.</p><p class="venue">Multidisciplinary Reviews, 2024.</p><p class="keywords"><strong>Keywords:</strong> university rankings; strategic decisions; higher education.</p><div class="pub-links"><a href="https://doi.org/10.31893/multirev.2025124">doi</a></div></article></li>
+            </ol>
+          </section>
+          <section class="publication-year" data-year-group>
+            <h3 class="year-heading">2023</h3>
+            <ol class="publication-list"><li class="publication-item" data-type="journal" data-year="2023" data-role=""><article><div class="pub-badge">Journal</div><h3>Personality Traits and Aggressive Behavior in Vietnamese Adolescents</h3><p class="authors">Duc Tin Le, Son Van Huynh, Truong Vuong Vu, Nhu-Thuyen Dang-Thi, <strong>Bao-Tran Nguyen-Duong</strong>, Kiet Anh Duong, Tan Ngan Mai, Thanh Nhon Huynh, Phuc Tan Mai, & Vinh-Long Tran-Chi.</p><p class="venue">Psychology Research and Behavior Management, 2023.</p><p class="keywords"><strong>Keywords:</strong> personality traits; aggressive behavior; Vietnamese adolescents.</p><div class="pub-links"><a href="https://doi.org/10.2147/PRBM.S405379">doi</a></div></article></li></ol>
+          </section>
+          <section class="publication-year" data-year-group>
+            <h3 class="year-heading">2022</h3>
+            <ol class="publication-list">
+              <li class="publication-item" data-type="journal" data-year="2022" data-role="corresponding"><article><div class="pub-badge">Journal *</div><h3>Mediation effects of premarital sexual permissiveness on the relationship between expectations for marriage and marital intention of Vietnamese undergraduate students</h3><p class="authors">Thuy-Trinh Ngo-Thi, Van-Son Huynh, Nhu-Thuyen Dang-Thi, <strong>Bao-Tran Nguyen-Duong</strong>, Thuy-Tien Vu-Nguyen, Gallayaporn Nantachai, Nguyen Nguyen Trong, & Vinh-Long Tran-Chi.</p><p class="venue">Psychology Research and Behavior Management, 2022.</p><p class="keywords"><strong>Keywords:</strong> marital intention; premarital sexual permissiveness; undergraduate students.</p><div class="pub-links"><a href="https://doi.org/10.2147/PRBM.S387789">doi</a></div></article></li>
+              <li class="publication-item" data-type="journal" data-year="2022" data-role=""><article><div class="pub-badge">Journal</div><h3>Mediation effects of post-series depression on the relationship between life satisfaction and positive mental health of Vietnamese: A cross-sectional study in COVID-19 pandemic context</h3><p class="authors">Be Thi Ngoc Nguyen, Son Van Huynh, Trong Nguyen Nguyen, <strong>Bao-Tran Nguyen-Duong</strong>, Thuy-Trinh Ngo-Thi, & Vinh-Long Tran-Chi.</p><p class="venue">Frontiers in Psychology, 2022.</p><p class="keywords"><strong>Keywords:</strong> life satisfaction; positive mental health; COVID-19.</p><div class="pub-links"><a href="https://doi.org/10.3389/fpsyg.2022.971711">doi</a></div></article></li>
+              <li class="publication-item" data-type="conference" data-year="2022" data-role=""><article><div class="pub-badge">Conference</div><h3>Mathematics Anxiety in High School Students in Vietnam</h3><p class="venue">The 1st Thailand International Conference on Psychology (TICP), Bangkok, Thailand, 2022.</p><p class="keywords"><strong>Keywords:</strong> mathematics anxiety; high school students; Vietnam.</p></article></li>
+              <li class="publication-item" data-type="conference" data-year="2022" data-role=""><article><div class="pub-badge">Conference</div><h3>Mediation Effects of Post-series Depression on the Relationship Between Life Satisfaction and Mental Health of Vietnamese: A Cross-sectional Study in COVID-19 Pandemic Context</h3><p class="venue">The 1st Annual International Conference of the Thai Clinical Psychologist Association, Bangkok, Thailand, Jan 2022.</p><p class="keywords"><strong>Keywords:</strong> post-series depression; life satisfaction; mental health; COVID-19.</p></article></li>
+              <li class="publication-item" data-type="conference" data-year="2022" data-role=""><article><div class="pub-badge">Conference</div><h3>Mediation Effects of Premarital Sexual Permissiveness on the Relationship Between Expectations for Marriage and Marital Intention of Vietnamese Undergraduate Students</h3><p class="venue">The 22nd International Conference of Public Health Sciences: The Challenges of Changing Era, Virtual Conference, Jan 2022.</p><p class="keywords"><strong>Keywords:</strong> premarital sexual permissiveness; expectations for marriage; marital intention.</p></article></li>
+            </ol>
+          </section>
+          <section class="publication-year" data-year-group>
+            <h3 class="year-heading">2021</h3>
+            <ol class="publication-list">
+              <li class="publication-item" data-type="journal" data-year="2021" data-role=""><article><div class="pub-badge">Journal</div><h3>The perspective of psychology students on the areas of psychology</h3><p class="authors">Vinh-Long Tran Chi, Thien-Ly Duong Vo, Gia-Phuoc Tran Thien, <strong>Bao-Tran Nguyen Duong</strong>, & Thuy-Trinh Ngo Thi.</p><p class="venue">Journal of Educational Technology and Theory, Jan 2021.</p><p class="keywords"><strong>Keywords:</strong> psychology students; psychology fields; career perception.</p></article></li>
+              <li class="publication-item" data-type="journal" data-year="2021" data-role=""><article><div class="pub-badge">Journal</div><h3>The fear of public speaking in Vietnamese pedagogy freshmen</h3><p class="authors">Van-Trung Tran, Anh-Chuong Huynh Lam, <strong>Bao-Tran Nguyen Duong</strong>, Thuy-Trinh Ngo Thi, & Vinh-Long Tran Chi.</p><p class="venue">Journal of Educational Technology and Theory, Jan 2021.</p><p class="keywords"><strong>Keywords:</strong> public speaking anxiety; pedagogy freshmen; Vietnamese students.</p></article></li>
+              <li class="publication-item" data-type="journal" data-year="2021" data-role=""><article><div class="pub-badge">Journal</div><h3>An investigation of mathematics anxiety and academic coping strategies among high school students in Vietnam: A cross-sectional study</h3><p class="authors">Huyen-Trang Luu-Thi, Thuy-Trinh Ngo-Thi, My-Tien Nguyen-Thi, Thanh Thao-Ly, <strong>Bao-Tran Nguyen-Duong</strong>, & Vinh-Long Tran-Chi.</p><p class="venue">Frontiers in Education, Jan 2021.</p><p class="keywords"><strong>Keywords:</strong> mathematics anxiety; academic coping; high school students.</p></article></li>
+            </ol>
+          </section>
+        </div>
+
+        <div class="section-heading collaboration-heading" id="collaboration-footprint">
+          <div>
+            <h2>Collaboration Footprint</h2>
+            <p class="section-kicker">Selected institutions across an international research network.</p>
+          </div>
+          <a href="#collaboration-footprint">collaborator map</a>
+        </div>
+        <div class="collaboration-layout">
+          <div class="map-card collaboration-map-card" aria-label="Collaborator footprint map">
+            <div id="collaboration-map"></div>
+          </div>
+          <div class="collaboration-panel" aria-label="Selected collaborating institutions">
+            <h3 class="institutions-title">Collaboration Statistics</h3>
+            <div class="collaboration-stats" aria-label="Collaboration statistics">
+              <div><strong>4</strong><span>Countries</span></div>
+              <div><strong>4</strong><span>Institutions</span></div>
+              <div><strong>10+</strong><span>Collaborators</span></div>
+              <div><strong>12</strong><span>Publications</span></div>
+            </div>
+            <h3 class="institutions-title">Selected Institutions</h3>
+            <ul class="institution-list">
+              <li>
+                <span class="institution-mark"><img src="picture/logo-tmu.png" alt="" loading="lazy"></span>
+                <div><strong>Taipei Medical University</strong><span>Taipei, Taiwan · Neuroscience and consciousness</span></div>
+              </li>
+              <li>
+                <span class="institution-mark"><img src="picture/logo-nus.svg" alt="" loading="lazy"></span>
+                <div><strong>National University of Singapore</strong><span>Singapore · Psychiatry and mental health</span></div>
+              </li>
+              <li>
+                <span class="institution-mark"><img src="picture/logo-hcmue.png" alt="" loading="lazy"></span>
+                <div><strong>Ho Chi Minh City University of Education</strong><span>Ho Chi Minh City, Vietnam · Psychology and education</span></div>
+              </li>
+              <li>
+                <span class="institution-mark"><img src="picture/logo-chula.svg" alt="" loading="lazy"></span>
+                <div><strong>Chulalongkorn University</strong><span>Bangkok, Thailand · Psychiatry and cognitive health</span></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="metrics" data-section="metrics">
+        <div class="section-heading">
+          <div>
+            <h2>Metrics</h2>
+            <p class="section-kicker">Research visibility across academic profiles.</p>
+          </div>
+          <a href="https://scholar.google.com/citations?user=fn3BgTkAAAAJ&amp;hl=en">updated May 2026</a>
+        </div>
+        <div class="metrics-grid">
+          <article class="metric-panel">
+            <div class="metric-source">Google Scholar</div>
+            <div class="metric-table" aria-label="Google Scholar metrics">
+              <div class="metric-table-head"><span></span><strong>All</strong><strong>Since 2021</strong></div>
+              <div class="metric-table-row"><span>Citations</span><strong>104</strong><strong>104</strong></div>
+              <div class="metric-table-row"><span>h-index</span><strong>6</strong><strong>6</strong></div>
+              <div class="metric-table-row"><span>i10-index</span><strong>3</strong><strong>3</strong></div>
+            </div>
+            <a class="metric-link" href="https://scholar.google.com/citations?user=fn3BgTkAAAAJ&amp;hl=en">view profile</a>
+          </article>
+          <article class="metric-panel">
+            <div class="metric-source">ResearchGate</div>
+            <div class="metric-row"><span>Reads</span><strong>7,994</strong></div>
+            <div class="metric-row"><span>Citations</span><strong>89</strong></div>
+            <div class="metric-row"><span>Publications</span><strong>12</strong></div>
+            <a class="metric-link" href="https://www.researchgate.net/profile/Bao-Tran-Nguyen-Duong-2/">view profile</a>
+          </article>
+        </div>
+
+      </section>
+
+      <section class="section" id="cv" data-section="cv">
+        <div class="section-heading">
+          <div>
+            <h2>CV</h2>
+            <p class="section-kicker">A concise academic record for quick scanning.</p>
+          </div>
+        </div>
+        <div class="cv-list">
+          <article>
+            <h3>General Information</h3>
+            <p><strong>Bao-Tran Nguyen-Duong</strong></p>
+            <p>baotranpsy@gmail.com</p>
+            <p>Languages: Vietnamese and English.</p>
+            <p>Research interests: neuroscience, consciousness, brain states, neural mechanisms, and mental health.</p>
+          </article>
+          <article>
+            <h3>Education</h3>
+            <div class="cv-entry"><div class="cv-time">Feb 2026 - Present<span>Taipei, Taiwan</span></div><div><p><strong>Master's Program</strong>, Graduate Institute of Mind, Brain and Consciousness (GIMBC), Taipei Medical University.</p><p>Scholarship covering full tuition; affiliated with The Brain State Lab.</p></div></div>
+            <div class="cv-entry"><div class="cv-time">2019 - 2024<span>Ho Chi Minh City, Vietnam</span></div><div><p><strong>Bachelor's Degree in Psychology</strong>, Ho Chi Minh City University of Education.</p><p>Studied in the Psychology program and conducted academic work primarily centered on mental health.</p></div></div>
+          </article>
+          <article>
+            <h3>Experience</h3>
+            <div class="cv-entry"><div class="cv-time">Feb 2026 - Present<span>Taipei, Taiwan</span></div><div><p><strong>Graduate Researcher</strong>, The Brain State Lab, Graduate Institute of Mind, Brain and Consciousness (GIMBC), Taipei Medical University.</p><p>Conducting master's-level research under the supervision of Associate Professor Niall Duncan, focusing on brain states and neural mechanisms.</p></div></div>
+            <div class="cv-entry"><div class="cv-time">2021 - Present</div><div><p><strong>Research Assistant</strong>, Ph.D. Vinh-Long Tran-Chi's Psychological Scientific Research Laboratory.</p><p>Worked under the supervision of Ph.D. Vinh-Long Tran-Chi, Lecturer in the Faculty of Psychology, Ho Chi Minh City University of Education, Vietnam.</p></div></div>
+            <div class="cv-entry"><div class="cv-time">Apr 2023 - Sep 2023</div><div><p><strong>Neuroscience Intern Student</strong>, Taiwan Experience Education Program (TEEP), Graduate Institute of Mind, Brain and Consciousness (GIMBC), Taipei Medical University.</p><p>Participated in "The Nature of Mind and Brain - A Multimodal Neuroscience Approach."</p></div></div>
+            <div class="cv-entry"><div class="cv-time">Jan 2023 - Mar 2023</div><div><p><strong>Intern</strong>, Southern Vietnam HIV and Addiction Treatment Technology Transfer Center (SVHATTC), University of Medicine and Pharmacy, Ho Chi Minh City.</p><p>Completed an internship at SVHATTC.</p></div></div>
+            <div class="cv-entry"><div class="cv-time">Feb 2022 - May 2022</div><div><p><strong>Clinical Psychology Intern</strong>, Department of Psychosomatic Medicine, Thu Duc City Hospital, Ho Chi Minh City.</p><p>Completed a clinical psychology internship.</p></div></div>
+          </article>
+          <article>
+            <h3>Volunteer</h3>
+            <div class="cv-entry"><div class="cv-time">May 2023</div><div><p><strong>Content Collaborator</strong>, PsyCancer Talk - Psychosocial Project, Vietnam.</p><p>Participated in a psychosocial project aimed at raising awareness and supporting the mental health of communities affected by cancer in Vietnam.</p></div></div>
+            <div class="cv-entry"><div class="cv-time">Feb 2022</div><div><p><strong>Volunteer</strong>, "Care to Rise" Program, Ho Chi Minh City, Vietnam.</p><p>Participated in health examinations for children affected by COVID-19 and assisted with preliminary assessment in the psychological counseling area.</p></div></div>
+          </article>
+          <article>
+            <h3>Academic Activities and Professional Service</h3>
+            <div class="cv-entry"><div class="cv-time">2026</div><div><p><strong>International Summer School 2026</strong>, Taipei Medical University, Taipei, Taiwan.</p><p>Participated in the program entitled "Scientific approach toward nonstationary time series analysis for biomedical artificial intelligence."</p></div></div>
+            <div class="cv-entry"><div class="cv-time">2025</div><div><p><strong>Invited Reviewer</strong>, BMC Psychology; Frontiers in Psychology.</p><p>Invited to serve as a reviewer for BMC Psychology and Frontiers in Psychology.</p></div></div>
+            <div class="cv-entry"><div class="cv-time">2023</div><div><p><strong>Vietnam Summer School of Science 2023</strong>, International Centre for Interdisciplinary Science and Education (ICISE), Binh Dinh Province, Vietnam.</p><p>Participated in the cohort entitled "Embracing the Past, Shaping the Future."</p></div></div>
+            <div class="cv-entry"><div class="cv-time">2022</div><div><p><strong>Vietnam Summer School of Science cohort 2022</strong>, ICISE, Binh Dinh Province, Vietnam.</p><p>Participated in the cohort entitled "Stories of Life."</p></div></div>
+          </article>
+          <article>
+            <h3>Grants and Fellowships</h3>
+            <div class="cv-entry"><div class="cv-time">Feb 2026 - Present</div><div><p><strong>In M.S. Program</strong>: scholarship covering full tuition, Graduate Institute of Mind, Brain and Consciousness (GIMBC), Taipei Medical University.</p></div></div>
+            <div class="cv-entry"><div class="cv-time">2019 - 2023</div><div><p><strong>In B.A. Program</strong>: Ho Chi Minh City University of Education Merit Scholarship, estimated total value $1,500; The Student Scientific Research Award - Eureka, estimated total value $400.</p></div></div>
+            <div class="cv-entry"><div class="cv-time">2016 - 2019</div><div><p><strong>In High School</strong>: incentive for participation and awards in high school olympiads, estimated total value $500.</p></div></div>
+          </article>
+          <article>
+            <h3>Selected Certificates</h3>
+            <div class="cv-entry"><div class="cv-time">Jun 2022 - Jul 2022</div><div><p><strong>Applied Positive Psychology</strong>, Vietnam Psychotherapy Association, taught by Prof. Edward Hoffman.</p></div></div>
+            <div class="cv-entry"><div class="cv-time">Jan 2023</div><div><p><strong>Human Research for Biomedical Research</strong>, CITI Program course under requirements set by University of North Carolina at Chapel Hill.</p></div></div>
+            <div class="cv-entry"><div class="cv-time">Jun 2023 - Jul 2023</div><div><p><strong>Basic Statistics in Social Sciences and Educational Science Research</strong>, Center for Research and Training of Teachers, Educational Managers, University of Education - University of Danang, Vietnam.</p></div></div>
+          </article>
+          <article>
+            <h3>References</h3>
+            <p><strong>Associate Professor Niall Duncan</strong>, Graduate Institute of Mind, Brain and Consciousness (GIMBC), Taipei Medical University, Taiwan. nwduncan@tmu.edu.tw</p>
+            <p><strong>Ph.D. Vinh-Long Tran-Chi</strong>, University of Health Sciences, Viet Nam National University, Ho Chi Minh City; National University of Singapore. tcvlong@uhsvnu.edu.vn</p>
+          </article>
+          <article>
+            <h3>Interests</h3>
+            <p><strong>Neuroscience:</strong> brain states, neural mechanisms, and multimodal neuroscience approaches.</p>
+            <p><strong>Mental Health:</strong> psychological assessment, clinical psychology, counseling, and psychotherapy.</p>
+          </article>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2026 Bao-Tran Nguyen-Duong. Academic profile inspired by the al-folio layout.</p>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
